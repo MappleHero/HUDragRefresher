@@ -1,4 +1,4 @@
-与ReactiveCocoa中RACCommand很常用,最近项目中要用到上拉刷新,所以就写了个与RACCommand相配套的上下拉刷新,现开源出来,随便拿去用吧!
+由于在ReactiveCocoa中,RACCommand很常用,最近项目中要用到上下拉刷新,所以就写了个与RACCommand相配套的上下拉刷新,现开源出来,随便拿去用吧!
 用法:
 ```objective-C
     //添加上拉刷新
