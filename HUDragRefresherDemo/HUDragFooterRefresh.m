@@ -55,7 +55,8 @@
     //保存最近一次已加载的页面,用于错误恢复.
     _latestPage=1;
     _temprefresh=[RACSubject subject];
-    _dragUpSuccessSignal=[RACSubject subject];
+    //消除对订阅先后顺序的信赖
+    _dragUpSuccessSignal=[RACReplaySubject replaySubjectWithCapacity:1];
     self.dragUpRefreshSignal=[RACSignal merge:@[self.temprefresh]];
     [self.dragUpRefreshSignal subscribeNext:^(id x){
         [self startLoading];

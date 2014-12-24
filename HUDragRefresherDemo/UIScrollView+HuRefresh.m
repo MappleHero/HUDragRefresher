@@ -26,11 +26,11 @@ static char __header_;
 }
 
 
--(RACSubject*)dragUpSuccessSignal{
+-(RACReplaySubject*)dragUpSuccessSignal{
     return self.footerRefresh.dragUpSuccessSignal;
 }
 
--(RACSubject*)dragDownSuccessSignal{
+-(RACReplaySubject*)dragDownSuccessSignal{
     return self.headerRefresh.dragDownSucessSignal;
 }
 

@@ -11,8 +11,8 @@
 #import "HUDragFooterRefresh.h"
 #import "HUDragHeaderRefresh.h"
 @interface UIScrollView (HuRefresh)
-@property(nonatomic,strong,readonly) RACSubject* dragUpSuccessSignal;
-@property(nonatomic,strong,readonly) RACSubject* dragDownSuccessSignal;
+@property(nonatomic,strong,readonly) RACReplaySubject* dragUpSuccessSignal;
+@property(nonatomic,strong,readonly) RACReplaySubject* dragDownSuccessSignal;
 @property(nonatomic,strong,readonly) HUDragFooterRefresh* footerRefresh;
 @property(nonatomic,strong,readonly) HUDragHeaderRefresh* headerRefresh;
 -(void)startFooterLoading;

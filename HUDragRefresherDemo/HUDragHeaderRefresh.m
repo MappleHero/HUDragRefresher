@@ -47,7 +47,8 @@
     _isLoading=YES;
     //是否已经加载完全部数据
     _temprefresh=[RACSubject subject];
-    _dragDownSucessSignal=[RACSubject subject];
+    //消除对订阅先后顺序的信赖
+    _dragDownSucessSignal=[RACReplaySubject replaySubjectWithCapacity:1];
     
     @weakify(self)
     self.dragDownRefreshSignal=[RACSignal merge:@[self.temprefresh]];

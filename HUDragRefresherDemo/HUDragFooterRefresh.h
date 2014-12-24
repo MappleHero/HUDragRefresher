@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <ReactiveCocoa.h>
 @interface HUDragFooterRefresh : NSObject
-@property(nonatomic,strong) RACSubject* dragUpSuccessSignal;
+@property(nonatomic,strong) RACReplaySubject* dragUpSuccessSignal;
 -(void)startLoading;
 -initWith:(RACCommand*) com inView:(UIScrollView*) x ;
 @end
