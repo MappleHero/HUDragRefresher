@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983577D51A4A8B4B00CC66DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577D41A4A8B4B00CC66DE /* Foundation.framework */; };
+		983577D71A4A8B4B00CC66DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577D61A4A8B4B00CC66DE /* CoreGraphics.framework */; };
+		983577D91A4A8B4B00CC66DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577D81A4A8B4B00CC66DE /* UIKit.framework */; };
+		983577DF1A4A8B4B00CC66DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983577DD1A4A8B4B00CC66DE /* InfoPlist.strings */; };
+		983577E11A4A8B4B00CC66DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983577E01A4A8B4B00CC66DE /* main.m */; };
+		983577E51A4A8B4B00CC66DE /* HUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983577E41A4A8B4B00CC66DE /* HUAppDelegate.m */; };
+		983577E81A4A8B4B00CC66DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983577E61A4A8B4B00CC66DE /* Main.storyboard */; };
+		983577EB1A4A8B4B00CC66DE /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983577EA1A4A8B4B00CC66DE /* HUViewController.m */; };
+		983577ED1A4A8B4B00CC66DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983577EC1A4A8B4B00CC66DE /* Images.xcassets */; };
+		983577F41A4A8B4B00CC66DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577F31A4A8B4B00CC66DE /* XCTest.framework */; };
+		983577F51A4A8B4B00CC66DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577D41A4A8B4B00CC66DE /* Foundation.framework */; };
+		983577F61A4A8B4B00CC66DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577D81A4A8B4B00CC66DE /* UIKit.framework */; };
+		983577FE1A4A8B4B00CC66DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983577FC1A4A8B4B00CC66DE /* InfoPlist.strings */; };
+		983578001A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983577FF1A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983577F71A4A8B4B00CC66DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983577C91A4A8B4B00CC66DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983577D01A4A8B4B00CC66DE;
+			remoteInfo = HUDragRefresherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983577D11A4A8B4B00CC66DE /* HUDragRefresherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUDragRefresherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983577D41A4A8B4B00CC66DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		983577D61A4A8B4B00CC66DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		983577D81A4A8B4B00CC66DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		983577DC1A4A8B4B00CC66DE /* HUDragRefresherDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUDragRefresherDemo-Info.plist"; sourceTree = "<group>"; };
+		983577DE1A4A8B4B00CC66DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983577E01A4A8B4B00CC66DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		983577E21A4A8B4B00CC66DE /* HUDragRefresherDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUDragRefresherDemo-Prefix.pch"; sourceTree = "<group>"; };
+		983577E31A4A8B4B00CC66DE /* HUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUAppDelegate.h; sourceTree = "<group>"; };
+		983577E41A4A8B4B00CC66DE /* HUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUAppDelegate.m; sourceTree = "<group>"; };
+		983577E71A4A8B4B00CC66DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		983577E91A4A8B4B00CC66DE /* HUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
+		983577EA1A4A8B4B00CC66DE /* HUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
+		983577EC1A4A8B4B00CC66DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		983577F21A4A8B4B00CC66DE /* HUDragRefresherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUDragRefresherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983577F31A4A8B4B00CC66DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		983577FB1A4A8B4B00CC66DE /* HUDragRefresherDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUDragRefresherDemoTests-Info.plist"; sourceTree = "<group>"; };
+		983577FD1A4A8B4B00CC66DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983577FF1A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDragRefresherDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983577CE1A4A8B4B00CC66DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983577D71A4A8B4B00CC66DE /* CoreGraphics.framework in Frameworks */,
+				983577D91A4A8B4B00CC66DE /* UIKit.framework in Frameworks */,
+				983577D51A4A8B4B00CC66DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983577EF1A4A8B4B00CC66DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983577F41A4A8B4B00CC66DE /* XCTest.framework in Frameworks */,
+				983577F61A4A8B4B00CC66DE /* UIKit.framework in Frameworks */,
+				983577F51A4A8B4B00CC66DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983577C81A4A8B4B00CC66DE = {
+			isa = PBXGroup;
+			children = (
+				983577DA1A4A8B4B00CC66DE /* HUDragRefresherDemo */,
+				983577F91A4A8B4B00CC66DE /* HUDragRefresherDemoTests */,
+				983577D31A4A8B4B00CC66DE /* Frameworks */,
+				983577D21A4A8B4B00CC66DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983577D21A4A8B4B00CC66DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983577D11A4A8B4B00CC66DE /* HUDragRefresherDemo.app */,
+				983577F21A4A8B4B00CC66DE /* HUDragRefresherDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983577D31A4A8B4B00CC66DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983577D41A4A8B4B00CC66DE /* Foundation.framework */,
+				983577D61A4A8B4B00CC66DE /* CoreGraphics.framework */,
+				983577D81A4A8B4B00CC66DE /* UIKit.framework */,
+				983577F31A4A8B4B00CC66DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983577DA1A4A8B4B00CC66DE /* HUDragRefresherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				983577E31A4A8B4B00CC66DE /* HUAppDelegate.h */,
+				983577E41A4A8B4B00CC66DE /* HUAppDelegate.m */,
+				983577E61A4A8B4B00CC66DE /* Main.storyboard */,
+				983577E91A4A8B4B00CC66DE /* HUViewController.h */,
+				983577EA1A4A8B4B00CC66DE /* HUViewController.m */,
+				983577EC1A4A8B4B00CC66DE /* Images.xcassets */,
+				983577DB1A4A8B4B00CC66DE /* Supporting Files */,
+			);
+			path = HUDragRefresherDemo;
+			sourceTree = "<group>";
+		};
+		983577DB1A4A8B4B00CC66DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983577DC1A4A8B4B00CC66DE /* HUDragRefresherDemo-Info.plist */,
+				983577DD1A4A8B4B00CC66DE /* InfoPlist.strings */,
+				983577E01A4A8B4B00CC66DE /* main.m */,
+				983577E21A4A8B4B00CC66DE /* HUDragRefresherDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		983577F91A4A8B4B00CC66DE /* HUDragRefresherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				983577FF1A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m */,
+				983577FA1A4A8B4B00CC66DE /* Supporting Files */,
+			);
+			path = HUDragRefresherDemoTests;
+			sourceTree = "<group>";
+		};
+		983577FA1A4A8B4B00CC66DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983577FB1A4A8B4B00CC66DE /* HUDragRefresherDemoTests-Info.plist */,
+				983577FC1A4A8B4B00CC66DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983577D01A4A8B4B00CC66DE /* HUDragRefresherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983578031A4A8B4B00CC66DE /* Build configuration list for PBXNativeTarget "HUDragRefresherDemo" */;
+			buildPhases = (
+				983577CD1A4A8B4B00CC66DE /* Sources */,
+				983577CE1A4A8B4B00CC66DE /* Frameworks */,
+				983577CF1A4A8B4B00CC66DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUDragRefresherDemo;
+			productName = HUDragRefresherDemo;
+			productReference = 983577D11A4A8B4B00CC66DE /* HUDragRefresherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983577F11A4A8B4B00CC66DE /* HUDragRefresherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983578061A4A8B4B00CC66DE /* Build configuration list for PBXNativeTarget "HUDragRefresherDemoTests" */;
+			buildPhases = (
+				983577EE1A4A8B4B00CC66DE /* Sources */,
+				983577EF1A4A8B4B00CC66DE /* Frameworks */,
+				983577F01A4A8B4B00CC66DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983577F81A4A8B4B00CC66DE /* PBXTargetDependency */,
+			);
+			name = HUDragRefresherDemoTests;
+			productName = HUDragRefresherDemoTests;
+			productReference = 983577F21A4A8B4B00CC66DE /* HUDragRefresherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983577C91A4A8B4B00CC66DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = huhuTec;
+				TargetAttributes = {
+					983577F11A4A8B4B00CC66DE = {
+						TestTargetID = 983577D01A4A8B4B00CC66DE;
+					};
+				};
+			};
+			buildConfigurationList = 983577CC1A4A8B4B00CC66DE /* Build configuration list for PBXProject "HUDragRefresherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983577C81A4A8B4B00CC66DE;
+			productRefGroup = 983577D21A4A8B4B00CC66DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983577D01A4A8B4B00CC66DE /* HUDragRefresherDemo */,
+				983577F11A4A8B4B00CC66DE /* HUDragRefresherDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983577CF1A4A8B4B00CC66DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983577ED1A4A8B4B00CC66DE /* Images.xcassets in Resources */,
+				983577DF1A4A8B4B00CC66DE /* InfoPlist.strings in Resources */,
+				983577E81A4A8B4B00CC66DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983577F01A4A8B4B00CC66DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983577FE1A4A8B4B00CC66DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983577CD1A4A8B4B00CC66DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983577EB1A4A8B4B00CC66DE /* HUViewController.m in Sources */,
+				983577E11A4A8B4B00CC66DE /* main.m in Sources */,
+				983577E51A4A8B4B00CC66DE /* HUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983577EE1A4A8B4B00CC66DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983578001A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983577F81A4A8B4B00CC66DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983577D01A4A8B4B00CC66DE /* HUDragRefresherDemo */;
+			targetProxy = 983577F71A4A8B4B00CC66DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		983577DD1A4A8B4B00CC66DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983577DE1A4A8B4B00CC66DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		983577E61A4A8B4B00CC66DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983577E71A4A8B4B00CC66DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		983577FC1A4A8B4B00CC66DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983577FD1A4A8B4B00CC66DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983578011A4A8B4B00CC66DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		983578021A4A8B4B00CC66DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		983578041A4A8B4B00CC66DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUDragRefresherDemo/HUDragRefresherDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUDragRefresherDemo/HUDragRefresherDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		983578051A4A8B4B00CC66DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUDragRefresherDemo/HUDragRefresherDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUDragRefresherDemo/HUDragRefresherDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		983578071A4A8B4B00CC66DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUDragRefresherDemo.app/HUDragRefresherDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUDragRefresherDemo/HUDragRefresherDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HUDragRefresherDemoTests/HUDragRefresherDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		983578081A4A8B4B00CC66DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUDragRefresherDemo.app/HUDragRefresherDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUDragRefresherDemo/HUDragRefresherDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUDragRefresherDemoTests/HUDragRefresherDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983577CC1A4A8B4B00CC66DE /* Build configuration list for PBXProject "HUDragRefresherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983578011A4A8B4B00CC66DE /* Debug */,
+				983578021A4A8B4B00CC66DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983578031A4A8B4B00CC66DE /* Build configuration list for PBXNativeTarget "HUDragRefresherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983578041A4A8B4B00CC66DE /* Debug */,
+				983578051A4A8B4B00CC66DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		983578061A4A8B4B00CC66DE /* Build configuration list for PBXNativeTarget "HUDragRefresherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983578071A4A8B4B00CC66DE /* Debug */,
+				983578081A4A8B4B00CC66DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983577C91A4A8B4B00CC66DE /* Project object */;
+}
