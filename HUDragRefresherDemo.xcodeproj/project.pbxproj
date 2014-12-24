@@ -21,6 +21,14 @@
 		983577F61A4A8B4B00CC66DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983577D81A4A8B4B00CC66DE /* UIKit.framework */; };
 		983577FE1A4A8B4B00CC66DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983577FC1A4A8B4B00CC66DE /* InfoPlist.strings */; };
 		983578001A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983577FF1A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m */; };
+		983578111A4A8E2400CC66DE /* HUDragDownHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9835780A1A4A8E2400CC66DE /* HUDragDownHeaderView.m */; };
+		983578121A4A8E2400CC66DE /* HUDragFooterRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9835780C1A4A8E2400CC66DE /* HUDragFooterRefresh.m */; };
+		983578131A4A8E2400CC66DE /* HUDragHeaderRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9835780E1A4A8E2400CC66DE /* HUDragHeaderRefresh.m */; };
+		983578141A4A8E2400CC66DE /* UIScrollView+HuRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 983578101A4A8E2400CC66DE /* UIScrollView+HuRefresh.m */; };
+		983578171A4A96AE00CC66DE /* HUDragUpFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 983578161A4A96AE00CC66DE /* HUDragUpFooterView.m */; };
+		9835781C1A4A993700CC66DE /* arrow-big-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9835781B1A4A993700CC66DE /* arrow-big-04.png */; };
+		983578201A4A9B8B00CC66DE /* HUViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9835781F1A4A9B8B00CC66DE /* HUViewModel.m */; };
+		9F312BB5CEDA484C9172CA96 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FAD99F09804BCF829EDBEF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08FAD99F09804BCF829EDBEF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		983577D11A4A8B4B00CC66DE /* HUDragRefresherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUDragRefresherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983577D41A4A8B4B00CC66DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		983577D61A4A8B4B00CC66DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,20 @@
 		983577FB1A4A8B4B00CC66DE /* HUDragRefresherDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUDragRefresherDemoTests-Info.plist"; sourceTree = "<group>"; };
 		983577FD1A4A8B4B00CC66DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		983577FF1A4A8B4B00CC66DE /* HUDragRefresherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDragRefresherDemoTests.m; sourceTree = "<group>"; };
+		983578091A4A8E2400CC66DE /* HUDragDownHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDragDownHeaderView.h; sourceTree = "<group>"; };
+		9835780A1A4A8E2400CC66DE /* HUDragDownHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDragDownHeaderView.m; sourceTree = "<group>"; };
+		9835780B1A4A8E2400CC66DE /* HUDragFooterRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDragFooterRefresh.h; sourceTree = "<group>"; };
+		9835780C1A4A8E2400CC66DE /* HUDragFooterRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDragFooterRefresh.m; sourceTree = "<group>"; };
+		9835780D1A4A8E2400CC66DE /* HUDragHeaderRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDragHeaderRefresh.h; sourceTree = "<group>"; };
+		9835780E1A4A8E2400CC66DE /* HUDragHeaderRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDragHeaderRefresh.m; sourceTree = "<group>"; };
+		9835780F1A4A8E2400CC66DE /* UIScrollView+HuRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HuRefresh.h"; sourceTree = "<group>"; };
+		983578101A4A8E2400CC66DE /* UIScrollView+HuRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HuRefresh.m"; sourceTree = "<group>"; };
+		983578151A4A96AE00CC66DE /* HUDragUpFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDragUpFooterView.h; sourceTree = "<group>"; };
+		983578161A4A96AE00CC66DE /* HUDragUpFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDragUpFooterView.m; sourceTree = "<group>"; };
+		9835781B1A4A993700CC66DE /* arrow-big-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-big-04.png"; sourceTree = "<group>"; };
+		9835781E1A4A9B8A00CC66DE /* HUViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUViewModel.h; sourceTree = "<group>"; };
+		9835781F1A4A9B8B00CC66DE /* HUViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUViewModel.m; sourceTree = "<group>"; };
+		BE198DF449C241BC95EC4E28 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,7 @@
 				983577D71A4A8B4B00CC66DE /* CoreGraphics.framework in Frameworks */,
 				983577D91A4A8B4B00CC66DE /* UIKit.framework in Frameworks */,
 				983577D51A4A8B4B00CC66DE /* Foundation.framework in Frameworks */,
+				9F312BB5CEDA484C9172CA96 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +110,7 @@
 				983577F91A4A8B4B00CC66DE /* HUDragRefresherDemoTests */,
 				983577D31A4A8B4B00CC66DE /* Frameworks */,
 				983577D21A4A8B4B00CC66DE /* Products */,
+				BE198DF449C241BC95EC4E28 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +130,7 @@
 				983577D61A4A8B4B00CC66DE /* CoreGraphics.framework */,
 				983577D81A4A8B4B00CC66DE /* UIKit.framework */,
 				983577F31A4A8B4B00CC66DE /* XCTest.framework */,
+				08FAD99F09804BCF829EDBEF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +138,11 @@
 		983577DA1A4A8B4B00CC66DE /* HUDragRefresherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9835781D1A4A9A8A00CC66DE /* Class */,
 				983577E31A4A8B4B00CC66DE /* HUAppDelegate.h */,
 				983577E41A4A8B4B00CC66DE /* HUAppDelegate.m */,
+				9835781E1A4A9B8A00CC66DE /* HUViewModel.h */,
+				9835781F1A4A9B8B00CC66DE /* HUViewModel.m */,
 				983577E61A4A8B4B00CC66DE /* Main.storyboard */,
 				983577E91A4A8B4B00CC66DE /* HUViewController.h */,
 				983577EA1A4A8B4B00CC66DE /* HUViewController.m */,
@@ -152,6 +181,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9835781D1A4A9A8A00CC66DE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9835781B1A4A993700CC66DE /* arrow-big-04.png */,
+				983578091A4A8E2400CC66DE /* HUDragDownHeaderView.h */,
+				9835780A1A4A8E2400CC66DE /* HUDragDownHeaderView.m */,
+				9835780B1A4A8E2400CC66DE /* HUDragFooterRefresh.h */,
+				9835780C1A4A8E2400CC66DE /* HUDragFooterRefresh.m */,
+				9835780D1A4A8E2400CC66DE /* HUDragHeaderRefresh.h */,
+				9835780E1A4A8E2400CC66DE /* HUDragHeaderRefresh.m */,
+				9835780F1A4A8E2400CC66DE /* UIScrollView+HuRefresh.h */,
+				983578101A4A8E2400CC66DE /* UIScrollView+HuRefresh.m */,
+				983578151A4A96AE00CC66DE /* HUDragUpFooterView.h */,
+				983578161A4A96AE00CC66DE /* HUDragUpFooterView.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983578031A4A8B4B00CC66DE /* Build configuration list for PBXNativeTarget "HUDragRefresherDemo" */;
 			buildPhases = (
+				3EF07A726BE94563854397C7 /* Check Pods Manifest.lock */,
 				983577CD1A4A8B4B00CC66DE /* Sources */,
 				983577CE1A4A8B4B00CC66DE /* Frameworks */,
 				983577CF1A4A8B4B00CC66DE /* Resources */,
+				48FAFBDC22984960BF449A47 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +280,7 @@
 			files = (
 				983577ED1A4A8B4B00CC66DE /* Images.xcassets in Resources */,
 				983577DF1A4A8B4B00CC66DE /* InfoPlist.strings in Resources */,
+				9835781C1A4A993700CC66DE /* arrow-big-04.png in Resources */,
 				983577E81A4A8B4B00CC66DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,14 +295,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EF07A726BE94563854397C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48FAFBDC22984960BF449A47 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		983577CD1A4A8B4B00CC66DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983578111A4A8E2400CC66DE /* HUDragDownHeaderView.m in Sources */,
+				983578171A4A96AE00CC66DE /* HUDragUpFooterView.m in Sources */,
+				983578131A4A8E2400CC66DE /* HUDragHeaderRefresh.m in Sources */,
 				983577EB1A4A8B4B00CC66DE /* HUViewController.m in Sources */,
 				983577E11A4A8B4B00CC66DE /* main.m in Sources */,
+				983578141A4A8E2400CC66DE /* UIScrollView+HuRefresh.m in Sources */,
+				983578121A4A8E2400CC66DE /* HUDragFooterRefresh.m in Sources */,
 				983577E51A4A8B4B00CC66DE /* HUAppDelegate.m in Sources */,
+				983578201A4A9B8B00CC66DE /* HUViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +463,7 @@
 		};
 		983578041A4A8B4B00CC66DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE198DF449C241BC95EC4E28 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +477,7 @@
 		};
 		983578051A4A8B4B00CC66DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE198DF449C241BC95EC4E28 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +548,7 @@
 				983578051A4A8B4B00CC66DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983578061A4A8B4B00CC66DE /* Build configuration list for PBXNativeTarget "HUDragRefresherDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +557,7 @@
 				983578081A4A8B4B00CC66DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
