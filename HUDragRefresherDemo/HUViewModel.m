@@ -15,7 +15,7 @@
     self.datasource=[[NSMutableArray alloc] init];
     //对于上拉刷新信号,参数input的值为 页码
     self.upLoadCmd=[[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input){
-        NSLog(@"append loading....");
+      //  NSLog(@"append loading....");
         //模拟延时3秒钟获取数据
         return [[RACSignal defer:^{
             for(int i=0;i<13;i++){
@@ -26,7 +26,7 @@
     }];
     //对于下拉刷新信号,参数input的值为 上次刷新的时间 
     self.downLoadCmd=[[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input){
-        NSLog(@"insert loading....");
+       // NSLog(@"insert loading....");
         //模拟延时3秒钟获取数据
         return [[RACSignal defer:^{
             for(int i=0;i<13;i++){

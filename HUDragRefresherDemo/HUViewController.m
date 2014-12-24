@@ -51,10 +51,6 @@
 }
 #pragma mark - UITableView Datasource
 
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
-    NSLog(@"%@",scrollView);
-}
-
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
